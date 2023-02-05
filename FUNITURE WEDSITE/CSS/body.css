@@ -1,0 +1,78 @@
+body{
+    background-color:rgb(231, 216, 229);
+    margin-top:0;
+    padding: 0;
+}
+.main{
+    margin-top0px;
+}
+.top{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+
+}
+p{
+    text-align: center;
+    font-size: 24px;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+.header{
+    text-align: justify;
+  text-align-last: center;
+  display: inline-blocks;
+  font-size: 36px;
+  font-weight: bold;
+  font
+}
+
+.palor{
+    width: 650px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.about{
+    width: 650px;
+    height: 300px;
+    background-color:#b61fa2;
+    border-radius: 20px;
+    margin: 5px;
+    color: white;
+}
+.furniture{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top:30px;
+}
+.background{
+    width: 320px;
+    height: 220px;
+    background-color:rgb(245, 231, 242);
+    border-radius: 20px;
+    position: relative;
+box-shadow:2px 2px 5px 2px rgb(151, 153, 153); 
+}
+.displayf{
+    width: 260px;
+    height:160px;
+position: absolute;
+right:30px;
+top:30px;
+}
+
+.heart{
+    position:absolute;
+    right:15px;
+}
+.heart:hover,.heart:active{
+    filter: invert(29%) sepia(12%) saturate(2230%) hue-rotate(66deg) brightness(92%) contrast(87%);
+}
+.price{
+position:absolute;
+bottom: 9px;
+left:120px;
+font-weight: bold;
+color:rgb(27, 12, 1)
+}

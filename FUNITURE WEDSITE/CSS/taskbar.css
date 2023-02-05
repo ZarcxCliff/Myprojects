@@ -1,0 +1,125 @@
+.taskbar{
+    display:flex;
+    width: 2000px;
+    height: 50px;
+    background-color: #552302fd;
+    flex-direction: row;
+    position:fixed;
+    z-index: 100;
+    margin-top:0;
+    top:0;
+    left:-3px;
+}
+
+.icon1{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    left:10px;
+}
+
+.noothy{
+    position: absolute;
+  color: white;  
+  top: -10px;
+  left: 75px;
+font-weight: 70;
+font-style: bold;
+}
+
+.icon2{
+    position: absolute;
+    color: white;  
+    top: 15px;
+    left: 350px;
+  font-weight: 70;
+  font-style: bold;
+  cursor: pointer;
+}
+.icon3{
+    position: absolute;
+    color: white;  
+    top: 15px;
+    left: 450px;
+  font-weight: 70;
+  font-style: bold;
+  cursor: pointer;
+}
+
+.icon4{
+    position: absolute;
+    color: white;  
+    top: 0px;
+    left: 600px;
+  font-weight: 70;
+  font-style: bold;
+  cursor: pointer;
+}
+
+.sell{
+  height: 50px;  
+  width:60px;
+  background-color:#b61fa2;
+  border-style: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+    }
+
+    .sell:hover,.sell:active{
+        color: palevioletred;
+        background-color: aquamarine;
+    }
+
+    .icon5{
+        position: absolute;
+        color: white;  
+        top: 14px;
+        left: 890px;
+      font-weight: 70;
+      font-style: bold;
+      cursor: pointer;
+      height: 50px;
+      width: 50px;
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    }
+    
+    .icon6{
+        position: absolute;
+        color: white;  
+        top: 14px;
+        left: 990px;
+      font-weight: 70;
+      font-style: bold;
+      cursor: pointer;
+      height: 50px;
+      width: 50px;
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    }
+
+    .icon7{
+        position: absolute;
+        color: white;  
+        top: 14px;
+        left: 1090px;
+      font-weight: 70;
+      font-style: bold;
+      cursor: pointer;
+      height: 50px;
+      width: 50px;
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    }
+    
+    .icon8{
+        position: absolute;
+        color: white;  
+        top: 14px;
+        left: 1200px;
+      font-weight: 70;
+      font-style: bold;
+      cursor: pointer;
+      height: 50px;
+      width: 50px;
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    }
