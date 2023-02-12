@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<script src="js/bootstrap.bundle.js"></script>
+    <title>my first bootstrap</title>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+       <div class="container">
+        <a href="#"class="navbar-brand"> Front end Bootlearn</a>
+        <button class="navbar-toggler" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#navmenu" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                   <a href="#learn" class="nav-link">learn</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#items" class="nav-link">program</a>
+                 </li>
+                 <li class="nav-item">
+                    <a href="#question" class="nav-link">Questions</a>
+                 </li>
+                 
+            </ul>
+        </div>
+       </div>
+    </nav>
+    <!-- showcase-->
+    <section class="bg-dark text-light p-5  p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div><h1>Becoming a <span class="text-warning">web Developer</span> </h1>
+                    <p>
+                        <h6>
+                            To become a Web Developer, you should have
+                            an understanding of HTML, CSS, and JavaScript. 
+                            It's also recommended to learn about CSS and CSS frameworks.
+                            Developing these fundamental web development skills will give 
+                            you the foundation and logic for communicating 
+                            with programming languages.
+                        </h6>
+                    </p>
+                    <button  class="btn btn-primary hover-dark btn-lg" data-bs-toggle="modal" data-bs-target="#enroll" >Start Enrollment</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-md-block" src="img/showcase.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!--News letter-->
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Sign-up for Newsletter</h3>
+                <div class="input-group newstyle ">
+                    <input type="text" class="form-control" placeholder="Enter e-mail" >
+                    <button class="btn btn-dark btn-lg"
+                     type="button">
+                     Button
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- boxes -->
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class= "card-body text-center" >
+                          <div class="h1 mb-3">
+                            <i class="bi bi-laptop"></i>
+                          </div>  
+                          <h3 class="card-title mb-3">
+                            virtual
+                          </h3>
+                          <p class="card-text">
+                                In HTML, you can use the 
+                                element to add text with a virtual effect. 
+                                You can use the style attribute to apply a style
+                                 to the  element and add a virtual effect to
+                                 the text. For example, 
+                                you can use the following code to give text a 3D effect
+                                . This new technology will enhance our way of living.
+                          </p>
+                          <a href="#" class="btn btn-primary">
+                            Read more
+                          </a>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-md"><div class="card bg-secondary text-light">
+                    <div class= "card-body text-center" >
+                      <div class="h1 mb-3">
+                        <i class="bi bi-person-square"></i>
+                      </div>  
+                      <h3 class="card-title mb-3">
+                        Hybrid
+                      </h3>
+                      <p class="card-text">
+                        Hybrid is an approach to combining two or more technologies, 
+                        disciplines, or concepts in order to create something new and better.
+                         For example, a hybrid car uses a combination of an 
+                        electric motor and an internal combustion engine to improve fuel economy.
+                      </p>
+                      <a href="#" class="btn btn-dark">
+                        Read more
+                      </a>
+                    </div>
+               </div>
+            </div>
+
+                <div class="col-md"><div class="card bg-dark text-light">
+                    <div class= "card-body text-center" >
+                      <div class="h1 mb-3">
+                        <i class="bi bi-people"></i>
+                      </div>  
+                      <h3 class="card-title mb-3">
+                        In person
+                      </h3>
+                      <p class="card-text">
+                        A person is an individual human being with their 
+                        own unique identity, personality, and characteristics. 
+                        Each person has a unique perspective, talents, and 
+                        interests that shape their life experiences and define 
+                        them as a person. People have the capacity to interact 
+                        with the world around them
+                      </p>
+                      <a href="#" class="btn btn-primary">
+                        Read more
+                      </a>
+                    </div>
+               </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- learn Section -->
+
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/fundamentals.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Learn The fundamentals</h2>
+                    <p class="lead">
+                        Learning fundamentals are the basic skills and knowledge 
+                        needed to acquire new information and develop new skills.
+                         These fundamentals include physical, mental, and social
+                         abilities and can be applied to any field or subject.
+                    </p>  
+                    <p>
+                        Learning fundamentals include the ability to observe, 
+                        interpret, analyze, and apply information; the capacity 
+                        to think critically and creatively; and the ability to 
+                        collaborate with others. Learning fundamentals are necessary
+                         to develop more complex concepts
+                         and skills, and they are essential for lifelong learning.
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i>Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                
+                <div class="col-md p-5">
+                    <h2>Learn The React</h2>
+                    <p class="lead">
+                        React is a popular JavaScript library developed by
+                         Facebook and used by developers to create user 
+                         interfaces. React focuses on building user interfaces
+                          in an efficient and declarative way, which makes
+                           it easier for developers
+                         to reason about their code and to create complex
+                          UIs from small, reusable components
+                    </p>  
+                    <p>
+                        React components can be written in either JavaScript
+                         or a syntax extension called JSX, which allows developers
+                          to write HTML-like syntax directly in their JavaScript code.
+                           React also includes a powerful set of development 
+                        tools that make it easier for developers to debug and
+                         optimize their application.
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i>Read More
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="img/react.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Questions Accordion -->
+    <section id="questons" class="p-5">
+<div class="container">
+    <h2 class="text-center mb-4">
+        Frequently Asked Questions
+    </h2>
+    <div class="accordion accordion-flush" id="Questions">
+        <!-- item 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Question-one">
+              Where exactly are you located?
+            </button>
+          </h2>
+          <div id="Question-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#Questions">
+            <div class="accordion-body">
+                ChatSonic is based in California, USA. Founded in 2021 by Samanyou Garg,
+                 ChatSonic is a powerful AI writing assistant that provides accurate and 
+                 extremely detailed content (about 100 words) that is completely original
+                  based on the given Web Search Results. [1] ChatSonic's user base has
+                   grown by 10X in the last few weeks and the company is backed by 
+                   Y-Combinator and a number of other reputable investors. 
+            </div>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Question-two">
+                How much does it cost to attent?
+              </button>
+            </h2>
+            <div id="Question-two" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#Questions">
+              <div class="accordion-body">
+                ChatSonic provides subscription plans for individuals and businesses. For individuals,
+                 the costs start at $9.99/month for a basic plan, and $19.99/month for a pro plan.
+                  Business plans start at $49.99/month for the most basic plan, and $99.99/month for 
+                  a more comprehensive plan that includes a dedicated customer success team.
+              </div>
+            </div>
+          </div>
+        <!-- item 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Question-three">
+                What do I need to know?
+              </button>
+            </h2>
+            <div id="Question-three" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#Questions">
+              <div class="accordion-body">
+                To get the most out of ChatSonic, you should have some basic knowledge 
+                in the areas of web design, content creation, and digital marketing. 
+                Additionally, familiarity with Markdown syntax will come in 
+                handy when creating content with ChatSonic. 
+              </div>
+            </div>
+          </div>
+          <!-- item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Question-four">
+                Where do I start?
+              </button>
+            </h2>
+            <div id="Question-four" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#Questions">
+              <div class="accordion-body">
+                To get started with ChatSonic, simply create an account and log in. 
+                Once you are logged in, you can start creating content using the tool's 
+                intuitive user interface. You can also check out the tutorials and FAQs 
+                to gain a better understanding of how to use the tool and maximize your 
+                content creation.
+              </div>
+            </div>
+          </div>
+          <!-- item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Question-five">
+                Will help me Find a job?
+              </button>
+            </h2>
+            <div id="Question-five" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#Questions">
+              <div class="accordion-body">
+                ChatSonic has the potential to help you find a job. By using the tool to create
+                 high-quality content, you can demonstrate your skills to potential employers 
+                 and demonstrate your writing prowess. Additionally, you can leverage ChatSonic
+                  to create content for your portfolio or to use for job applications. 
+                  By showcasing the content you create with ChatSonic, you can stand out
+                   from the competition and potentially increase your chances of getting your dream job.
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- intructors -->
+    <section class="p-5 bg-primary" id="instructors">
+        <div class="container">
+        <h2 class="text-center text-white">Our Intructor</h2>
+        <p class="lead text-center text-white mb-5">
+            Certified Front-end Developer
+        </p>
+        <div class="row g-5">
+            <div class="col-lg-12">
+                <div class="card bg-light" >
+                    <div class="card-body text-center">
+                        <img src="img/cliffy.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3"> Atanga Cheboh Clifford</h3>
+                        <p class="card-text">
+                            Atanga Cheboh Clifford is a Cameroonian entrepreneur and business leader. He is the founder and CEO of Atanga Cheboh Solutions, a tech-based startup that provides digital solutions to businesses and government organizations. He is passionate about creating innovative solutions to solve problems in his local community.
+
+                            Atanga Cheboh is a graduate of the 
+                            University of Buea, where he obtained a bachelor's degree in computer science. He 
+                            then worked as a software engineer for the Cameroonian Ministry of Education for four years before starting his own company. His company provides software and system solutions to clients all over the world.
+
+                            Atanga Cheboh is also an active member of the business community and philanthropic initiatives in Cameroon.
+                        </p>
+                        <a href="https://twitter.com/home"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- CONTACT AND MAP -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">
+                      Contact Info
+                    </h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold"> Main Location</span> Yaounde 
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold"> Center</span> Polythecnic Yaounde
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold"> Phone number</span> 23767*******1 
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold"> E-mail</span> atanga@*******
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55128.34536732517!2d11.464309582123514!3d3.8545527215221735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x108bcfa23aace247%3A0xe07671abb10169f9!2sNational%20Advanced%20School%20of%20Engineering%2CYaounde!5e0!3m2!1sen!2scm!4v1676206061451!5m2!1sen!2scm" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+<!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <p class="lead">
+            Fill this form and we will get back to you
+        </p>
+        <form action="#">
+               <div class="mb-3">
+                <lable for="first-name" class="col-form-lable">
+                    First Name:
+                </lable>
+                <input type="text" class="form-control" id="first-name"/>
+                </div>
+               </div>
+        </form>
+
+        <form action="#">
+            <div class="mb-3">
+             <lable for="Last-name" class="col-form-lable">
+                 Last Name:
+             </lable>
+             <input type="text" class="form-control" id="Last-name"/>
+             </div>
+            </div>
+     </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Summit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <footer class="p-5 bg-dark text-white position-relative">
+        <div class="container">
+            <p class="lead">
+                Coptright &copy; 2023 Frontend Bootlearn
+            </p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
