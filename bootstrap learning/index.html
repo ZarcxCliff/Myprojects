@@ -36,7 +36,7 @@
        </div>
     </nav>
     <!-- showcase-->
-    <section class="bg-dark text-light p-5  p-lg-0 pt-lg-5 text-center text-sm-start">
+    <section class="bg-dark text-light p-md-5 p-xs-1 p-lg-0 pt-lg-5 text-center text-sm-start">
         <div class="container">
             <div class="d-sm-flex align-items-center justify-content-between">
                 <div><h1>Becoming a <span class="text-warning">web Developer</span> </h1>
@@ -74,7 +74,7 @@
 
     <!-- boxes -->
 
-    <section class="p-5">
+    <section class="p-md-5 p-xs-1">
         <div class="container">
             <div class="row text-center g-4">
                 <div class="col-md">
@@ -149,7 +149,7 @@
     </section>
     <!-- learn Section -->
 
-    <section id="learn" class="p-5">
+    <section id="learn" class="p-md-5 p-xs-1">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md">
@@ -183,7 +183,7 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 
-                <div class="col-md p-5">
+                <div class="col-md p-md-5 p-xs-1">
                     <h2>Learn The React</h2>
                     <p class="lead">
                         React is a popular JavaScript library developed by
@@ -214,7 +214,7 @@
     </section>
 
     <!-- Questions Accordion -->
-    <section id="questons" class="p-5">
+    <section id="questons" class="p-md-5 p-xs-1">
 <div class="container">
     <h2 class="text-center mb-4">
         Frequently Asked Questions
@@ -307,7 +307,7 @@
           </div>
     </section>
     <!-- intructors -->
-    <section class="p-5 bg-primary" id="instructors">
+    <section class="p-md-5 p-xs-1 bg-primary" id="instructors">
         <div class="container">
         <h2 class="text-center text-white">Our Intructor</h2>
         <p class="lead text-center text-white mb-5">
@@ -317,7 +317,7 @@
             <div class="col-lg-12">
                 <div class="card bg-light" >
                     <div class="card-body text-center">
-                        <img src="img/cliffy.jpg" class="rounded-circle mb-3" alt="">
+                        <img src="img/cliffy.jpg" class="rounded-circle mb-3 d-none d-sm-inline-block align-items-center" alt="">
                         <h3 class="card-title mb-3"> Atanga Cheboh Clifford</h3>
                         <p class="card-text">
                             Atanga Cheboh Clifford is a Cameroonian entrepreneur and business leader. He is the founder and CEO of Atanga Cheboh Solutions, a tech-based startup that provides digital solutions to businesses and government organizations. He is passionate about creating innovative solutions to solve problems in his local community.
@@ -368,46 +368,6 @@
         </div>
     </section>
     <!-- footer -->
-<!-- Modal -->
-<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-        <p class="lead">
-            Fill this form and we will get back to you
-        </p>
-        <form action="#">
-               <div class="mb-3">
-                <lable for="first-name" class="col-form-lable">
-                    First Name:
-                </lable>
-                <input type="text" class="form-control" id="first-name"/>
-                </div>
-               </div>
-        </form>
-
-        <form action="#">
-            <div class="mb-3">
-             <lable for="Last-name" class="col-form-lable">
-                 Last Name:
-             </lable>
-             <input type="text" class="form-control" id="Last-name"/>
-             </div>
-            </div>
-     </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Summit</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
     <footer class="p-5 bg-dark text-white position-relative">
         <div class="container">
             <p class="lead">
@@ -418,5 +378,56 @@
             </a>
         </div>
     </footer>
+    <!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">
+            Fill out this form and we will get back to you.
+          </p>
+          <form action="">
+            <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                    First Name:
+                </label>
+                <input type="text" class="form-control" id="first-name">
+            </div>
+
+            <div class="mb-3">
+                <label for="last-name" class="col-form-label">
+                    Last Name:
+                </label>
+                <input type="text" class="form-control" id="last-name">
+            </div>
+
+            <div class="mb-3">
+                <label for="phone-number" class="col-form-label">
+                    Phone Number:
+                </label>
+                <input type="text" class="form-control" id="phone-number">
+            </div>
+
+            <div class="mb-3">
+                <label for="e-mail" class="col-form-label">
+                E-mail :
+                </label>
+                <input type="text" class="form-control" id="e-mail">
+            </div>
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
