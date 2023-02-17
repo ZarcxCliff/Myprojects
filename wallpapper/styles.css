@@ -1,0 +1,82 @@
+body{
+    color: white;
+    padding:0;
+    margin:0
+    
+}
+
+html { 
+    background: url(img/pic1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.container{
+    display: flex;
+    flex-direction:row;
+    background-color: rgba(3, 3, 3, 0);
+    
+    height: 50px;
+    position: relative;
+    right: 0;
+    
+}
+
+.leftside{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    position:absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: 15px;
+
+
+
+}
+.menu{
+    padding-left: 60px;
+    padding-right: 60px;
+    color:white;
+
+}
+
+#link{
+ color: white;   
+}
+
+.chat{
+    width: 120px;
+    height:100px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(121deg) brightness(106%) contrast(102%);
+    position: absolute;
+    left:200px;
+    top: -25px;
+}
+.content{
+    position: absolute;
+    bottom: 100px;
+    padding-left: 300px;
+}
+h3{
+    padding: 0;
+}
+.button{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+}
+.arrow{
+    position: relative;
+    top:4px;
+    width: 18px;
+}
+.view{
+    position:absolute;
+    right: 140px;
+    bottom:0;
+
+}
